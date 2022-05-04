@@ -16,6 +16,7 @@
 		25AB700127E15A7800DBFBD4 /* pinkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB700027E15A7800DBFBD4 /* pinkAppTests.swift */; };
 		25AB700B27E15A7800DBFBD4 /* pinkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB700A27E15A7800DBFBD4 /* pinkAppUITests.swift */; };
 		25AB700D27E15A7800DBFBD4 /* pinkAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB700C27E15A7800DBFBD4 /* pinkAppUITestsLaunchTests.swift */; };
+		25AB701A27E2E97600DBFBD4 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB701927E2E97600DBFBD4 /* registerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		25AB700627E15A7800DBFBD4 /* pinkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AB700A27E15A7800DBFBD4 /* pinkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinkAppUITests.swift; sourceTree = "<group>"; };
 		25AB700C27E15A7800DBFBD4 /* pinkAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinkAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25AB701927E2E97600DBFBD4 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				25AB6FF227E15A7700DBFBD4 /* Assets.xcassets */,
 				25AB6FF427E15A7700DBFBD4 /* LaunchScreen.storyboard */,
 				25AB6FF727E15A7700DBFBD4 /* Info.plist */,
+				25AB701927E2E97600DBFBD4 /* registerViewController.swift */,
 			);
 			path = pinkApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				25AB6FEE27E15A7600DBFBD4 /* ViewController.swift in Sources */,
 				25AB6FEA27E15A7600DBFBD4 /* AppDelegate.swift in Sources */,
 				25AB6FEC27E15A7600DBFBD4 /* SceneDelegate.swift in Sources */,
+				25AB701A27E2E97600DBFBD4 /* registerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pinkApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pinkApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
